@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SelectedTime"
+        android:layout_marginTop="200dp"
+        android:text="06 : 00 PM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="46dp"/>
+
+    <Button
+        android:id="@+id/btnSelectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="Cài đặt giờ"
+        android:textSize="26dp"
+        android:background="@color/blue"/>
+
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="Cài đặt báo thức"
+        android:textSize="26dp"
+        android:background="@color/blue"/>
+
+    <Button
+        android:id="@+id/btnCancelAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="Huỷ báo thức"
+        android:textSize="26dp"
+        android:background="@color/blue"/>
+
+</LinearLayout>
